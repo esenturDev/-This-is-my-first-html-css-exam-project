@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(156, 66, 241, 0.8);
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container .content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content{
+  position: relative;
+  top: 150px;
+  right: 100px;
+  width: 1000px;
+  height: 520px;
+  background-color: rgba(68, 65, 249, 0.514);
+}
+
+.content .h1 {
+  position: relative;
+  left: 50px;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.content .button{
+  position: relative;
+  left: 65px;
+  width: 120px;
+  height: 55px;
+  background-color: rgb(129, 127, 255);
+  border: 1px solid aliceblue;
+  color: aliceblue;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.form{
+  position: absolute;
+  top: 130px;
+  right: 600px;
+  width: 400px;
+  height: 600px;
+  background-color: aliceblue;
+}
+
+.form .form11 .input-1 {
+  position: relative;
+  left: 25px;
+  top: 90px;
+  width: 320px;
+  height: 40px;
+}
+
+.form .form11 .input-2 {
+  position: relative;
+  left: 25px;
+  top: 120px;
+  width: 320px;
+  height: 40px;
+}
+
+.form .form11 .input-3 {
+  position: relative;
+  left: 25px;
+  top: 150px;
+  width: 320px;
+  height: 40px;
+}
+
+.form .form11 .input-4 {
+  position: relative;
+  left: 25px;
+  top: 180px;
+  width: 320px;
+  height: 40px;
+}
+
+.form .button1 {
+  width: 120px;
+  height: 55px;
+  background-color: rgb(212, 48, 81);
+  color: aliceblue;
+  font-weight: 300;
+  font-size: 20px;
+  border: 1px solid aliceblue;
+  position: relative;
+  top: 250px;
+  left: 140px;
+}
